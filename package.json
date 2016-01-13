@@ -1,0 +1,27 @@
+{
+  "name": "geometric-variance",
+  "version": "0.0.0",
+  "description": "Calculate geometric variance",
+  "keywords": [
+    "math",
+    "statistics"
+  ],
+  "repository": "KenanY/geometric-variance",
+  "license": "MIT",
+  "author": "Kenan Yildirim <kenan@kenany.me> (http://kenany.me/)",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/index.js"
+  },
+  "devDependencies": {
+    "lodash.isfunction": "^3.0.7",
+    "tape": "^4.4.0"
+  }
+}
